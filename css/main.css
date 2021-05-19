@@ -1,0 +1,111 @@
+body{
+			background-color: #00df58;
+			font-family: sans-serif;
+			font-size: .9rem;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		.container{
+			background-color: #fff;
+			margin:2em auto;
+			padding:15px;
+			width:480px;
+		}
+
+		.header > div{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.header > .icon{
+			padding:0 10px 10px 0;
+		}
+
+		.header > .profile-info a:hover{
+			text-decoration: underline;
+		}
+
+		.header > .profile-info > .profile-name{
+			margin:5px 0 5px 0;
+		}
+
+		.header > .profile-info > .profile-name a{
+			color:#3761AD;
+			font-weight: bold;
+		}
+
+		.header > .profile-info > .post-time a{
+			color:#bbb;
+		}
+
+		.container > .post-content{
+			font-size: .9em;
+		}
+
+		.container > .post-content > a{
+			color:#000;
+		}
+
+		.container > .post-content img{
+			margin-bottom:-5px;
+		}
+
+		.container > .post-content .description{
+			border:2px solid #ccc;
+			padding:10px;
+		}
+
+		.container > .post-content .description h2{
+			margin:0;
+		}
+
+		.container > .post-content .footer{
+			color:#ccc;
+			margin:0;
+			padding:0;
+		}
+
+		.container > .social{
+			color:#999;
+			margin-top:10px;
+		}
+
+		.container > .social a{
+			color:#999;
+		}
+
+		.container > .social a:hover{
+			text-decoration: underline;
+		}
+
+		.container .social .statistics .likes img{
+			display: inline-block;
+			margin-right:5px;
+			vertical-align: middle;
+		}
+
+		.container .social .statistics div{
+			display: inline-block;
+			vertical-align: top;
+			width: 49%;
+			
+		}
+
+		.container .social .statistics .comments{
+			font-size: .8em;
+			text-align: right;
+		}
+
+		.container .social .actions{
+			border-top:1px solid #ddd;
+			margin-top:10px;
+			padding-top:10px;
+		}
+
+		.container .social .actions a{
+			font-weight: bold;
+			padding:10px 30px 10px 0;
+		}
